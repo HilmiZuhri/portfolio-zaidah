@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
+import image from "../assets/image.png";
 
 export default function Hero() {
   return (
@@ -59,7 +60,7 @@ export default function Hero() {
           className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl"
         >
           <img 
-            src="src\assets\image.png" 
+            src={image} 
             alt="Copywriting desk"
             className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700"
             referrerPolicy="no-referrer"
