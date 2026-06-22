@@ -1,4 +1,4 @@
-export interface PortfolioItem {
+export interface PortfolioItems {
   id: string;
   title: string;
   category: string;
